@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 5;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+height: 67px;
+font-family: 'young serif';
+}
+.navbar li{
+    list-style: none;
+  margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbell{
+    height: 289px;
+    width: 289px;
+    
+}
+
+.topright .gyming{
+    width: 466px ;
+
+}
+
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(12, 10, 3);
+    text-align: center;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
