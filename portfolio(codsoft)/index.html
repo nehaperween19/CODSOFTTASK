@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(27, 32, 30);
+            color: whitesmoke;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height: 40px;
+            background-color: rgb(172, 10, 10);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+}
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+           color: rgb(85, 85, 176);
+           font-size: 1.02rem;
+        }
+        .left{
+            font-size: 1.1rem;
+        }
+        .firstSection{
+          display: flex;
+          justify-content: space-around;
+          margin: 140px 0;  
+        }
+        .firstSection > div{
+            width: 30%;  
+        }
+        .leftSection{
+            width: 34px;
+            font-size: 3rem;
+        }
+        .leftSection .btn{
+            width: 70px;
+
+        }
+        .rightSection img{
+            
+             width: 100%;
+            
+             
+        }
+        .purple{
+            color: rgb(137, 44, 225);
+        }
+        .name{
+            color: antiquewhite;
+        }
+        #element{
+            color: antiquewhite;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondSection{
+    font-size: 1.9rem;
+}
+.text-grey{
+    color: gray;
+    font-size: 2.5rem;
+    margin: 100px;
+}
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+
+.vertical-title{
+position:center;
+top: 85px;
+width: 150px;
+color: rgb(211, 193, 193);
+font-size: 30px;
+padding: 20px;
+margin: 100px;
+}
+.vertical-desc{
+position: center;
+    margin: 100px;
+    padding: 5px;
+
+color: rgb(218, 213, 213);
+font-size: 20px;
+}
+.image-top{
+    width: 12px;
+    position: relative;
+    top: -32px;
+
+}
+
+footer{
+    background-color: rgb(65, 12, 65);
+    height: 233px;
+    color: aliceblue;
+}
+
+.footer{
+    display: flex;
+ justify-content: space-evenly;
+    padding: 23px 122px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+.footer .footer-right{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.git img{
+    width: 35px;
+}
+.linkedin img{
+    width: 35px;
+}
+.btn{
+    background-color: rgb(46, 2, 87);
+    color: bisque;
+    width: 200px;
+    position: center;
+    padding: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Neha's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"> Home</li>
+                    
+                    <li><a href="/"> About </li>
+                    
+                    <li><a href="/"> Services</li>
+                    
+                    <li><a href="/">Projects</li>
+                    
+                    <li><a href="/"> Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+           <span class="purple"> Hi!
+            My name is <span class="name">Neha Perween</span> 
+            <div>and I am a passionate</span></div>
+            <span id="element"></span>
+            
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+            
+        </div>
+         <div class="rightSection">
+                <img src="img.jpeg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSecond">
+            
+            <span class="text-grey">My Work Experience</span><h1>
+
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    
+                <div class="vertical-title">
+                       Front-end Developer(2018-2022)
+                    </div>
+                </div>
+       <div class="vertical-desc">
+       <p> I was a front end developer at Techno IT Company. I have also done some backend based work along with front-end.
+      </p> </div>         
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Neha's Portfolio</h3>
+            </div>
+            
+            <div class="footer-second">
+                <ul>
+                    <li>LinkedIn</li>
+                    
+                  <div class="linkedin">  <li><img src="linkin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BBdVTFGj%2BRyarti0%2BcyvZkA%3D%3D/'"></li>
+                    </div>
+                    
+                    
+                    
+                
+                
+                </ul>
+            </div>
+            
+            <div class="footer-third">
+                <ul>
+                    <li>Github</li>
+                    
+                   <div class="git"> <li><img src="git.jpeg" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'"></li>
+                    </div>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-right">
+            Copyright &#169; Submitted by Neha Perween for Codsoft internship(October-A7 2023) | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Video Editor','Android Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
