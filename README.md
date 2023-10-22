@@ -1,2 +1,2 @@
 # CODSOFTTASK
-This Project is an internship(OCTOBER) task of Codsoft done by NEHA PERWEEN
+This Project is an web development internship(OCTOBER 2023 BATCH A7) task of Codsoft done by NEHA PERWEEN
